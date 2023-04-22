@@ -1,7 +1,0 @@
-local Message = (Text) -- Message --
-local Rank = "🌍#82" -- Partner for PARTNER - Moderator for MODERATOR --
-
-local Wow = "                                                                                                                                                       "
-if Rank and Message and type(Message) == "string" then
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..Wow.."["..Rank.."] ["..game.Players.LocalPlayer.DisplayName.."]: "..Message.."", "All")
-end
